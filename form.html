@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<link rel="stylesheet" href="form.css">
+<body>
+
+<div>
+  <form  class="container">
+    <h1><center>HTML FORM</center></h1>
+
+    <label for="name"><b>Name</b></label>&nbsp;
+    <input type="text" name="Name" required><br>
+    <br>
+   
+    <label for="email"><b>Email</b></label>&nbsp;
+    <input type="email" id="email"
+       pattern=".+@globex\.com" size="30" required><br>
+    <br>
+
+    
+    <label for="pass"><b>Password</b></label>&nbsp;
+    <input type="password" id="pass" name="password"
+           minlength="8" required><br>
+    <br>
+
+    <label for="Feedback"><b>Feedback</b></label></br></br>
+    <textarea type="text" rows="6" cols="50"  name="requestMessage" required></textarea></br><br>
+    <button type="submit" name="submit"class="BTN">Submit</button>
+  </form>
+</div>
+
+</body>
+</html>
